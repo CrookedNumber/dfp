@@ -1,0 +1,6 @@
+<?php
+
+function dfp_uninstall() {
+  variable_del('dfp_account');
+  variable_del('dfp_slots');
+}

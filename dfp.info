@@ -1,0 +1,6 @@
+name = Doubleclick for Publishers
+description = Ad Slots become Drupal blocks
+core = 7.x
+files[] = dfp.install
+files[] = dfp.module
+
