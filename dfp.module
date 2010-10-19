@@ -12,7 +12,7 @@
 function google_admanager_block($op = 'list', $delta = 0, $edit = array()) {
   if ($op == 'list') {
     $blocks = array();
-    if (! variable_get('google_admanager_noblock', FALSE)) {
+    if (!variable_get('google_admanager_noblock', FALSE)) {
       $ad_slots = _google_admanager_get_ad_slots();
       foreach ($ad_slots as $delta => $name) {
         $blocks[$delta] = array(
